@@ -24,7 +24,7 @@
 
   ---paragraph-color: hsl(48, 4%, 23%);
 
-  ---bg-color: hsl(280, 82%, 94%);
+  ---bg-color: hsl(282, 87%, 97%);
 
   font-size: 62.5%;
 }
@@ -34,7 +34,18 @@ html {
   width: 100%;
   height: 100%;
 
-  background: var(---bg-color);
+  background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%) center no-repeat
+    fixed;
+
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.9rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(---paragraph-color);
 }
 
 section {
@@ -46,11 +57,15 @@ img {
 }
 
 .wrapper {
-  margin-inline: auto;
   width: min(30rem, 100%);
+  margin-inline: auto;
+  padding-inline: 2rem;
+  background: var(---bg-color);
 
-  text-align: center;
+  border-radius: 0.4rem;
 }
+
+/* ======MAIN-CONTENT-STYLE====== */
 
 header.main-title {
   padding-block: 3.2rem;
@@ -78,12 +93,12 @@ h2 {
   line-height: 2.1rem;
 
   text-transform: uppercase;
+  text-align: center;
   color: var(---box-color-titles);
 }
 
 h3 {
   font-family: "Roboto Serif", serif;
-
   font-style: normal;
   font-weight: 700;
   font-size: 1.6rem;
@@ -97,11 +112,12 @@ h3 {
 
 h4 {
   font-family: "Roboto", sans-serif;
-
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.6rem;
+  text-align: center;
   color: var(---title-color);
+
   opacity: 0.7;
 }
 
@@ -111,8 +127,8 @@ p {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 2.1rem;
-
   color: var(---paragraph-color);
+
   opacity: 0.6;
 }
 
@@ -135,6 +151,7 @@ section#drinks .wrapper .item {
 
 .item header {
   margin-bottom: 0.8rem;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,29 +167,27 @@ section#drinks .wrapper .item {
   content: "";
   display: block;
   position: relative;
-  width: 0%;
+  width: 30%;
   height: 0.2rem;
-  right: 0;
-  top: -1rem;
-  background: var(---font-color-span-title);
-
-  transition: 0.6s;
+  right: -35%;
+  top: -2.3rem;
+  background: var(---box-color);
 }
 
-.items::after {
-  content: "";
-  display: block;
+.icon-gif {
   position: relative;
-  width: 0%;
-  height: 0.2rem;
-  right: 0;
-  top: 0;
-  background: var(---font-color-span-title);
-
-  transition: 0.6s;
 }
 
-.items:hover::before,
-.items:hover::after {
-  width: 100%;
+.icon-gif img {
+  width: 3rem;
+  position: absolute;
+  z-index: 0;
+  right: 44%;
+  top: -2.8rem;
+}
+
+.icon-gif:nth-last-child(2) img {
+    width: 4rem;
+  top: -3.4rem;
+  left: 44%;
 }

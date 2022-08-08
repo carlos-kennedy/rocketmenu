@@ -18,13 +18,11 @@
     */
   ---box-color: hsl(320, 27%, 87%);
   ---box-color-titles: hsl(283, 5%, 30%);
+  ---bg-color: hsl(282, 87%, 97%);
 
   ---font-color-span-title: hsl(280, 63%, 74%);
   ---title-color: hsl(283, 5%, 30%);
-
   ---paragraph-color: hsl(48, 4%, 23%);
-
-  ---bg-color: hsl(282, 87%, 97%);
 
   font-size: 62.5%;
 }
@@ -171,7 +169,7 @@ section#drinks .wrapper .item {
 }
 
 .item .description-item {
-  width: 24rem;
+  width: max(24rem);
 }
 
 .icon-gif {

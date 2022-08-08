@@ -145,9 +145,6 @@ section#drinks .wrapper .item {
   text-align: left;
 }
 
-.items {
-}
-
 .items::before {
   content: "";
   display: block;

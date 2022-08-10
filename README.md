@@ -12,6 +12,6 @@
 <h2> Tecnologias </h2>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" align="center" width="25rem" /> <strong>HTML</strong><br>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" align="center" width="25rem" /> <strong>CSS</strong><br>
-🖥<a href="https://www.the-qrcode-generator.com/pt/" target="__blank" title="Site do gerador de qr code"> Gerador de Código QR </a> 
+🖥<a href="https://www.the-qrcode-generator.com/pt/" target="_blank" title="Site do gerador de qr code"> Gerador de Código QR </a> 
 
 </div>

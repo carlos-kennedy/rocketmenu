@@ -4,7 +4,7 @@
 <img src="https://i.imgur.com/YZfe5xS.png" alt="imagem do projeto rocketmenu" />
 
 <h2> Sobre </h2>
-<p> Projeto criado para servir um menu de qualquer lugar alimentício, sendo no proejeto foi uma confeitaria e café. </p>
+<p> Projeto criado para servir um menu de qualquer lugar alimentício, sendo no projeto foi uma confeitaria e café. </p>
 <p align="center"> Pode ser visitado através do Código QR abaixo: </p>
 <img src="https://i.imgur.com/10MxRyM.png" title="código QR" width="120rem "/>
 </div>
